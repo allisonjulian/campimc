@@ -3,27 +3,33 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="script.js"></script>
 	<link rel="stylesheet" href="style.css" />
 	<title>Camp IMC</title>
 </head>
 
 <body>
 <nav>
-<a href="#"><img src="images/logo-white.png" id="nav-logo" alt="Camp IMC" />Home</a>
-<a href="#about">About</a>
-<a href="#">Registration & Mechanics</a>
-<a href="#faqs">FAQs</a>
-<a href="#contact">Contact Us</a>
+	<ul class="topnav">
+	<li><a href="#"><img src="images/logo-white.png" id="nav-logo" alt="Camp IMC" /></a></li>
+	<li><a href="#home" class="active">Home</a></li>
+	<li><a href="#about">About</a></li>
+	<li><a href="#reg">Registration & Mechanics</a></li>
+	<li><a href="#faqs">FAQs</a></li>
+	<li><a href="#contact">Contact Us</a></li>
+	<li class="icon"><a href="javascript:void(0);" class="icon">&#9776; Menu</a></li>
+	</ul>
 </nav>
 
-<header>
+<header id="home">
 	<div class="content">
 		<img src="images/logo.png" alt="Camp IMC" id="main-logo" />
 		<h1>Camp IMC</h1>
 	</div>
 </header>
 
-<!-- info vid here lol -->
+<!-- info vid code here -->
 
 <div id="about" class="container">
 	<div class="content">
@@ -38,19 +44,46 @@
 		</div>
 
 		<div class="right">
-				<div class="photo a">
-					<h2>2015</h2>
-					<img src="images/2015.jpg" alt="2015" />
+			<div class="slider">
+			<ul class="content-slides">
+				<li>
+				<div class="one">
+					<div class="photo a">
+						<h2>2015</h2>
+						<img src="images/2015.jpg" alt="2015" />
+					</div>
+					<p class="a">In 2015, Camp IMC partnered with San Miguel Corporation in celebration of their 125 years of leadership, brands and commitment to national development. Camp IMC centered on making the world better by making a difference in national development.</p>
 				</div>
-				<p class="a">In 2015, Camp IMC partnered with San Miguel Corporation in celebration of their 125 years of leadership, brands and commitment to national development. Camp IMC centered on making the world better by making a difference in national development.</p>
-				<div class="photo b">
-					<h2>2016</h2>
-					<img src="images/2016.jpg" alt="2016" />
+
+				<div class="two">
+					<div class="photo b">
+						<h2>2016</h2>
+						<img src="images/2016.jpg" alt="2016" />
+					</div>
+					<p class="b">In 2016, together with its co-presenter, Smart Communications, Camp IMC put the spotlight on the emerging prevalence of digital marketing and how it is practiced in the field of telecommunications. </p>	
 				</div>
-				<p class="b">In 2016, together with its co-presenter, Smart Communications, Camp IMC put the spotlight on the emerging prevalence of digital marketing and how it is practiced in the field of telecommunications. </p>				
+			</li>
+			<li>
+				<div class="photo c">
+				<h2>Camp IMC 2017</h2>
+				<img src="images/2015.jpg" alt="2017" />
+				<img src="images/2016.jpg" alt="2017" />
+				</div>
+				<p class="c">This year Camp IMC is partnered with, ___________. This year, Camp IMC focuses on the now. It highlights the different actions, strategies and efforts taken today will propel ________ to transcend to greater heights in the future. It highlights  the notion of bringing something new to the table— Innovation.</p>
+			</li>
+		</ul>
+
+		<ul class="content-pagination">
+	    <li class="active-marker"><a href="0">0</a></li>
+	    <li><a href="1">1</a></li>
+		</ul>
 		</div>
 	</div>
 </div>
+
+<div id="reg"></div>
+<div id="faqs"></div>
+<div id="contact"></div>
 
 </body>
 </html>
