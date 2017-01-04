@@ -27,6 +27,7 @@
               </div>
               <div class="row">
                 <h3 class="text-center">Camp IMC Applications</h3>
+                <h5 class="text-center"><a href="export.php" class="menu-link text-center">Export applicants to CSV</a></h5>
                 <h5 class="text-center"><a href="logout.php" class="menu-link text-center">Log out</a></h5><br>
                 
               </div>
