@@ -286,7 +286,77 @@ header h1 {
 @media screen and (max-width: 620px) {
 
 }
+#reg ::-webkit-input-placeholder{
+	color: #278599;
+	font-family: 'Mosk', sans-serif;
+}
+#reg :-moz-placeholder{
+	color: #278599;
+	font-family: 'Mosk', sans-serif;
+}
 
+#reg :-ms-input-placeholder{
+	color: #278599;
+	font-family: 'Mosk', sans-serif;
+}
+
+#reg textarea{
+	text-align: left;
+	border: 2px solid;
+	border-color: #278599;
+	border-width: thin;
+	resize: none;
+	height: 191px;
+	width: 298px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	font-family: 'Mosk', sans-serif;
+	font-size: 12px;
+}
+
+#reg input{
+	text-align: left;
+	border: 2px solid;
+	border-color: #278599;
+	border-width: thin;
+	height: 25px;
+	width: 300px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	font-family: 'Mosk', sans-serif;
+	font-size: 12px;
+}
+#reg input[type=submit]{
+	background-color: #278599 !important;
+	border-color: #FFF !important;
+	border-width: thin;
+	color: #FFF;
+	width: 70px;
+	height: 33px;
+	float: left;
+	align:center;
+	font-size: 13px;
+	text-align:center !important;
+	padding-left: 5px !important;
+	font-family: 'Mosk', sans-serif;
+}
+#reg input[type=reset]{
+	background-color: #278599 !important;
+	border-color: #FFF !important;
+	border-width: thin;
+	color: #FFF;
+	width: 70px;
+	height: 33px;
+	float: right;
+	align:center;
+	margin-right:380px;
+	font-size: 13px;
+	text-align:center !important;
+	padding-left: 5px !important;
+	font-family: 'Mosk', sans-serif;
+}
+
+ff
 #contact{
 	background-image: url(images/contactusbackgroundpicture.jpg);
 	background-size: 100% 100%;
@@ -320,6 +390,7 @@ header h1 {
 	margin-bottom: 0px;
 }
 
+}
 #contact ::-webkit-input-placeholder{
 	color: #278599;
 	font-family: 'Mosk', sans-serif;
