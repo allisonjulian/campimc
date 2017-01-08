@@ -301,7 +301,7 @@ header h1 {
 }
 
 #reg textarea{
-	text-align: left;
+	text-align: center;
 	border: 2px solid;
 	border-color: #278599;
 	border-width: thin;
@@ -336,6 +336,7 @@ header h1 {
 	float: left;
 	align:center;
 	font-size: 13px;
+
 	text-align:center !important;
 	padding-left: 5px !important;
 	font-family: 'Mosk', sans-serif;
@@ -349,14 +350,14 @@ header h1 {
 	height: 33px;
 	float: right;
 	align:center;
-	margin-right:380px;
+	margin-right:340px;
 	font-size: 13px;
 	text-align:center !important;
 	padding-left: 5px !important;
 	font-family: 'Mosk', sans-serif;
 }
 
-ff
+
 #contact{
 	background-image: url(images/contactusbackgroundpicture.jpg);
 	background-size: 100% 100%;
