@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +14,7 @@
 <body id="">
   
   <?php
-      session_start();
+      
 
       if(isset($_SESSION['valid_user']))
       {
@@ -94,7 +95,7 @@
       }
       else
       {
-        header("Location: adminlogin.php");
+        echo '<script> location.replace("adminlogin.php"); </script>';
         echo '<script> alert("You must be logged in!"); </script>';
       }
 
