@@ -194,80 +194,108 @@
 	margin-top:50px; 
     color: #000000;
 	font-family: 'Mosk', sans-serif;
-	font-size:25px
+
+	font-size:15px
 	"class = "form"> 
 
-<form style ="margin-left:500px; margin-right:400px" action="submit.php" method="post">
-	<fieldset> 
-	<legend style = "font-size: 40px;
+<form style ="
+ align:center; 
+ margin:0 auto;
+ max-width: 800px !important;
+ " action="submit.php" method="post">
+	
+    
+	<h1 style="font-size: 40px;
 	color: #3a3e48;
 	font-color: #278599;
 	text-align: center;
-	font-family: 'Mosk', sans-serif;"> <strong> CAMP IMC Registration Form </strong></legend>
-	<fieldset> 
-		<legend style = "font-size: 40px;
+	font-family: 'Mosk', sans-serif;"> <strong> CAMP IMC Registration Form </strong></h1>
+	
+	<div class ="team" style= "border:5px solid; border-color:  #992727;">
+		<h2 style = "font-size: 30px;
 	color: #3a3e48;
 	text-align: center;
-	font-family: 'Mosk', sans-serif;"> Team Information </legend>
-<p style ="text-align:center; margin-left:310px; ">
-		<span class="form"><input type="text" name="teamname" placeholder="Team Name"/></span><br/>
-		<span class="form"><input type="text" name="school" placeholder="College/University"/></span><br/>
-		<span class="form"><input type="text" name="contactnumber" placeholder="Contact Number"/></span><br/>
-		<span class="form"><input type="email" name="email" placeholder="Email"/></span><br/>
-		<span class="form"><input type="number" name="nummem" placeholder="How many members?"/></span><br/>
+	font-family: 'Mosk', sans-serif;"> Team Information </h2>
 
-		
+<p style = "margin-left:310px; margin:0 auto; ">
+
+	   What is your team name?<br> 
+       <input type = "text" name ="teamname"> 
+       <br>
+
+       What college/university do you come from?<br>
+       <input type = "text" name ="school"> 
+       <br>
+
+       Contact Number <br>
+       <input type="text" name="contactnumber"> 
+       	<br>
+
+       	Email
+       	<input type="email" name="email">
+       	<br>
+
+       	How many members are you on the team?
+       	<input type = "number" name = "members">
+       	<br>
+       	<br>       	
 </p>
+	</div>
 	
-	</fieldset>
 	<br>
-	<fieldset> 
-		<legend style = "font-size: 40px;
+	<div class ="member" style= "border:5px solid; border-color:  #992727;">
+		<h2 style = "font-size: 40px;
 	color: #3a3e48;
 	text-align: center;
-	font-family: 'Mosk', sans-serif;"> Member Information </legend>
-		<p style ="text-align:center; margin-left:310px;>
-       
-		 <span class ="form"> <input type="text" name="Name" placeholder= "1st member's Name"/></span></li><br/> 
-		 <span class ="form"> <input type="text" name="Course" placeholder= "Year & Course"/></span></li><br/> 
-		  <span class ="form"> <input type="email" name="email" placeholder= "Email"/></span></li><br/> 
-		   <span class ="form"> <input type="text" name="number" placeholder= "Contact Number"/></span></li><br/> 
-		   <br>
-
-		    <span class ="form"> <input type="text" name="Name" placeholder= "2nd member's Name"/></span></li><br/> 
-		 <span class ="form"> <input type="text" name="Course" placeholder= "Year & Course"/></span></li><br/> 
-		  <span class ="form"> <input type="email" name="email" placeholder= "Email"/></span></li><br/> 
-		   <span class ="form"> <input type="text" name="number" placeholder= "Contact Number"/></span></li><br/> 
-		   <br>
-
-		    <span class ="form"> <input type="text" name="Name" placeholder= "3rd member's Name"/></span></li><br/> 
-		 <span class ="form"> <input type="text" name="Course" placeholder= "Year & Course"/></span></li><br/> 
-		  <span class ="form"> <input type="email" name="email" placeholder= "Email"/></span></li><br/> 
-		   <span class ="form"> <input type="text" name="number" placeholder= "Contact Number"/></span></li><br/> 
-		   <br>
-
-		    <span class ="form"> <input type="text" name="Name" placeholder= "4th member's Name"/></span></li><br/> 
-		 <span class ="form"> <input type="text" name="Course" placeholder= "Year & Course"/></span></li><br/> 
-		  <span class ="form"> <input type="email" name="email" placeholder= "Email"/></span></li><br/> 
-		   <span class ="form"> <input type="text" name="number" placeholder= "Contact Number"/></span></li><br/> 
-		   <br>
-
-		    <span class ="form"> <input type="text" name="Name" placeholder= "5th member's Name"/></span></li><br/> 
-		 <span class ="form"> <input type="text" name="Course" placeholder= "Year & Course"/></span></li><br/> 
-		  <span class ="form"> <input type="email" name="email" placeholder= "Email"/></span></li><br/> 
-		   <span class ="form"> <input type="text" name="number" placeholder= "Contact Number"/></span></li><br/> 
-		   <br>
-           
-
-
+	font-family: 'Mosk', sans-serif;"> Member Information </h2>
 		
-	
+
+
+<p style = "margin-left:310px; margin:0 auto; ">
+
+
+		<strong> 1st member</strong>: <br>
+			Name: <input type ="text" name ="name"> <br>
+			Course: <input type ="text" name ="course"> <br>
+			Email: <input type="email" name="email"> <br>
+			Number: <input type ="text" name ="number"> <br>
+			<br>
+
+				<strong> 2nd member</strong>: <br>
+			Name: <input type ="text" name ="name"> <br>
+			Course: <input type ="text" name ="course"> <br>
+			Email: <input type="email" name="email"> <br>
+			Number: <input type ="text" name ="number"> <br>
+			<br>
+
+				<strong> 3rd member</strong>: <br>
+			Name: <input type ="text" name ="name"> <br>
+			Course: <input type ="text" name ="course"> <br>
+			Email: <input type="email" name="email"> <br>
+			Number: <input type ="text" name ="number"> <br>
+			<br>
+
+				<strong> 4th member</strong>: <br>
+			Name: <input type ="text" name ="name"> <br>
+			Course: <input type ="text" name ="course"> <br>
+			Email: <input type="email" name="email"> <br>
+			Number: <input type ="text" name ="number"> <br>
+			<br>
+
+				<strong> 5th member</strong>: <br>
+			Name: <input type ="text" name ="name"> <br>
+			Course: <input type ="text" name ="course"> <br>
+			Email: <input type="email" name="email"> <br>
+			Number: <input type ="text" name ="number"> <br>      
 		
-		</fieldset>
+		
+
 		<br>
- 		<input style="margin-left:360px" type ="submit" >
- 		<input type="reset">
- 		</fieldset>
+	
+ 		<input  type ="submit" >
+ 		<input  type="reset">
+ 		</p>
+ 		</div>
 </form>
 
  </div>
