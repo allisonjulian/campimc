@@ -474,7 +474,7 @@ header h1 {
 /*---FAQs---*/
 
 #faqs {
-	background-image: url(images/5-FAQS.jpg);
+	/*background-image: url(images/5-FAQS.jpg);*/
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -486,10 +486,9 @@ header h1 {
 }
 
 #faqs .content {
-	margin: auto;
-	padding: 0px 0 0 500px;
+	margin-left: 450px;
 	width: 100%;
-	max-width: 100px;
+	
 } 
 #faqs .content p { 
 	color: #787B8C;
@@ -497,13 +496,12 @@ header h1 {
 	font-weight: 500;
 	font-size: 50px;
 	letter-spacing: 5px;
-	text-align: right;
+	text-align: center;
 	width: 450px;
-	height: 1px;
 	}
 
 #faqs .content br { 
-	margin-bottom: 0px;
+	margin-bottom: 18px;
 	align-content: right;
 	}
 
