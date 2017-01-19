@@ -474,7 +474,7 @@ header h1 {
 /*---FAQs---*/
 
 #faqs {
-	background-image: url(images/5-FAQS.jpg);
+	/*background-image: url(images/5-FAQS.jpg);*/
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -486,24 +486,24 @@ header h1 {
 }
 
 #faqs .content {
-	margin: auto;
-	padding: 0px 0 0 500px;
-	width: 100%;
-	max-width: 100px;
+
+	
 } 
 #faqs .content p { 
 	color: #787B8C;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 500;
 	font-size: 50px;
+        line-height: 40px;
+        width: 80%;
+        top: 40px;
+        padding: 18px 20px 18px 20px;
 	letter-spacing: 5px;
-	text-align: right;
-	width: 450px;
-	height: 1px;
+
 	}
 
 #faqs .content br { 
-	margin-bottom: 0px;
+	margin-bottom: 18px;
 	align-content: right;
 	}
 
@@ -512,7 +512,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 30px;
+	margin-top: -160px;
 	margin-left: 190px;
 	position: absolute;
 
@@ -531,7 +531,7 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 420px;
-	margin-top: 110px;
+	margin-top: -80px;
 	margin-left: 190px;
 	position: absolute;
 }
@@ -541,7 +541,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 205px;
+	margin-top: -5px;
 	margin-left: 665px;
 	position: absolute;
 	
@@ -560,7 +560,7 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 400px;
-	margin-top: 290px;
+	margin-top: 70px;
 	margin-left: 665px;
 	position: absolute;
 }
@@ -570,7 +570,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 355px;
+	margin-top: 155px;
 	margin-left: 190px;
 	position: absolute;
 }
@@ -588,11 +588,95 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 400px;
-	margin-top: 435px;
+	margin-top: 235px;
 	margin-left: 190px;
 	position: absolute;
 }
 
+#faqs .question4 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 80px;
+	margin-left: 665px;
+	position: absolute;
+	
+}
+#faqs .question4 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer4 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 155px;
+	margin-left: 665px;
+	position: absolute;
+}
+
+#faqs .question5 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 235px;
+	margin-left: 190px;
+	position: absolute;
+}
+#faqs .question5 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer5 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 310px;
+	margin-left: 190px;
+	position: absolute;
+}
+#faqs .question6 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 395px;
+	margin-left: 665px;
+	position: absolute;
+	
+}
+#faqs .question6 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer6 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 470px;
+	margin-left: 665px;
+	position: absolute;
+}
 #faqs p { 
 	color: #278599;
 	font-family: 'Mosk', sans-serif;
@@ -602,4 +686,3 @@ header h1 {
 	width: 270px;
 	word-wrap: break-word;
 }
-
