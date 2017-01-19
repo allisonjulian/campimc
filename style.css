@@ -474,7 +474,7 @@ header h1 {
 /*---FAQs---*/
 
 #faqs {
-	background-image: url(images/5-FAQS.jpg);
+	/*background-image: url(images/5-FAQS.jpg);*/
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -486,8 +486,7 @@ header h1 {
 }
 
 #faqs .content {
-	width: 100%;
-	padding: 0 0 0 900px;
+
 	
 } 
 #faqs .content p { 
@@ -500,12 +499,11 @@ header h1 {
         top: 40px;
         padding: 18px 20px 18px 20px;
 	letter-spacing: 5px;
-	text-align: right;
-	width: 400px;
+
 	}
 
 #faqs .content br { 
-	margin-bottom: 0px;
+	margin-bottom: 18px;
 	align-content: right;
 	}
 
