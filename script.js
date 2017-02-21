@@ -24,19 +24,19 @@ $(document).ready(function(){
         islider = setInterval("slideStart()", 2500);
         return false;
     });
-    
+
 	$('ul.topnav li:not(:first-child) a').click(function(){
 	  $('ul.topnav').toggleClass('responsive');
 	});
 
 	$(document).on("scroll", onScroll);
-    
+
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
-        
+
         if($(this).hasClass('active')){
-            $('a').each(function () {    
+            $('a').each(function () {
                 $(this).removeClass('active');
             })
         }
