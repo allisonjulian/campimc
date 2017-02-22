@@ -46,7 +46,7 @@ nav a img#nav-logo {
 nav li.icon {
 	display: none;
 }
-header {
+header { 
 	background-image: url(images/header.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
@@ -54,15 +54,15 @@ header {
 	background-size: cover;
 	-o-background-size: cover;
 	width: 100%;
-	padding-bottom: 200px;
+	height: 100%;
 }
 header img#main-logo {
 	margin: 75px auto 0 auto;
 	width: 100%;
 	max-width: 550px;
 }
-header .content {
-	text-align: center;
+header .content { 
+	text-align: center; 
 }
 header h1 {
 	font-size: 48px;
@@ -80,10 +80,10 @@ header h1 {
 	background-size: cover;
 	-o-background-size: cover;
 	width: 100%;
-	min-height: 100%;
+	height: 100%;
 	margin: 0 auto;
 }
-#about .content {
+#about .content { 
 	overflow: auto;
 }
 #about h1 {
@@ -110,7 +110,7 @@ header h1 {
 	margin: -45px 0 0 -20px;
 	width: 280px;
 }
-#about p {
+#about p { 
 	color: #787B8C;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 500;
@@ -128,7 +128,7 @@ header h1 {
 #about h2 span {
 	color: #29869A;
 }
-#about .left {
+#about .left { 
 	float: left;
 	width: 368px;
 }
@@ -146,7 +146,7 @@ header h1 {
 	text-transform: uppercase;
 	margin: 5px 0;
 }
-#about .right .photo.a {
+#about .right .photo.a { 
 	float: left;
 }
 #about .right .photo img {
@@ -161,7 +161,7 @@ header h1 {
 	padding: 10px;
 	width: 260px;
 }
-#about .right .photo.b {
+#about .right .photo.b { 
 	float: right;
 }
 #about .right p.b {
@@ -176,9 +176,9 @@ header h1 {
 	clear: both;
 }
 #about .right .photo.c img {
-	width: 100%;
-	max-width: 571px;
-	margin: 10px auto;
+	height: 195px;
+	width: 275px;
+	margin: 0 2px;
 }
 #about .right p.c {
 	width: 542px;
@@ -208,7 +208,6 @@ header h1 {
 .slider .content-pagination li a {width: 10px; height: 10px; border-radius: 10px; background-color: #ccc; overflow: hidden; line-height: 10px; font-size: 1px; text-indent: -999em; display: inline-block; *display: inline; *zoom: 1;}
 .slider .content-pagination li.active-marker a,
 .slider .content-pagination li a:hover {background-color: #08c; color: #fff;}
-
 @media screen and (max-width: 1025px) {
 	#about .content .left {
 		margin: auto;
@@ -236,16 +235,16 @@ header h1 {
 	.slider {
 		padding-bottom: 80px;
 	}
-	.slider .content-pagination {
-		margin: 580px 0 0 -40px;
+	.slider .content-pagination { 
+		margin: 580px 0 0 -40px; 
 	}
 }
 @media screen and (max-width: 840px) {
 	nav {
 		border: none;
 	}
-	ul.topnav {
-		text-align: left;
+	ul.topnav { 
+		text-align: left; 
 		padding: 0;
 		margin: 0;
 	}
@@ -263,10 +262,10 @@ header h1 {
 		float: right;
 		padding: 20px 0;
 	}
-	ul.topnav.responsive {
+	ul.topnav.responsive { 
 		margin: 0;
 		padding: 0;
-		position: relative;
+		position: relative; 
 	}
 	ul.topnav.responsive li.icon {
 		float: right;
@@ -284,131 +283,8 @@ header h1 {
     text-align: left;
   }
 }
-@media screen and (max-width: 640px) {
-	#about .content .right {
-		width: 100%;
-		clear: both;
-		max-width: 640px;
-		text-align: center;
-		padding: 0;
-		margin: 0 auto;
-		overflow: hidden;
-	}
-	#about .content .right .slider {
-		margin: 0 auto;
-		padding: 0;
-		width: 100%;
-		max-width: 640px;
-		height: 1000px;
-	}
-	#about .content .right .slider li {
-		width: 425px;
-	}
-	#about .content .right .slider .one {
-		width: 100%;
-		max-width: 640px;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		clear: both;
-	}
-	#about .content .right .slider .two {
-		width: 100%;
-		max-width: 640px;
-		margin: 0 auto;
-		padding: 0 auto;
-		text-align: center;
-		clear: both;
-	}
-	#about .content .right .slider .three {
-		width: 100%;
-		max-width: 640px;
-		margin: 0 auto;
-		padding: 0 auto;
-		text-align: center;
-		clear: both;
-	}
-	#about .right .photo.a {
-		float: none;
-		margin: 0 auto;
-	}
-	#about .right p.a {
-		float: none;
-		margin: 10px auto;
-		border: 5px solid #B8C1C9;
-	}
-	#about .right .photo.b {
-		float: none;
-		margin: 0 auto;
-	}
-	#about .right p.b {
-		float: none;
-		margin: 10px auto;
-		border: 5px solid #B8C1C9;
-	}
-	#about .right .photo.c {
-		float: none;
-		margin: 0 auto;
-		width: 80%;
-		max-width: 640px;
-		margin: 0 auto;
-	}
-	#about .right p.c {
-		float: none;
-		width: 80%;
-		max-width: 640px;
-		margin: 10px auto;
-	}
-	.slider .content-pagination { text-align: center; bottom: 0; position: absolute; left: 50%; margin-left: -50px;}
-}
-@media screen and (max-width: 375px) {
-	#about .content {
-		clear: both;
-		width: 100%;
-		max-width: 375px;
-		overflow: hidden;
-	}
-	#about .content h2 {
-		margin: 20px auto;
-		text-align: center;
-	}
-	#about .content .left {
-		float: none;
-		max-width: 375px;
-		margin: 0 auto;
-		width: 85%;
-	}
-	#about .border1 {
-		width: auto;
-		padding: 0;
-		border: none;
-		margin: 0;
-	}
-	#about .border2 {
-		border: 6px solid #992727;
-		max-width: 375px;
-		width: 85%;
-		padding: 5%;
-		margin: 0 auto;
-	}
-	#about p {
-		color: #787B8C;
-		font-family: 'Mosk', sans-serif;
-		font-weight: 500;
-		text-align: justify;
-		line-height: 22px;
-		width: 100%;
-		padding: 0;
-		margin: 0;
-	}
-	#about .content .right .slider li {
-		width: 375px;
-	}
-}
-@media screen and (max-width: 320px) {
-	#about .content .right .slider li {
-		width: 320px;
-	}
+@media screen and (max-width: 620px) {
+
 }
 
 #reg ::-webkit-input-placeholder{
@@ -425,7 +301,7 @@ header h1 {
 	font-family: 'Mosk', sans-serif;
 }
 
-#reg textarea{
+.team textarea{
 	text-align: center;
 	border: 2px solid;
 	border-color: #278599;
@@ -439,34 +315,31 @@ header h1 {
 	font-size: 12px;
 }
 
-#reg input{
+.team input{
 	text-align: left;
 	border: 2px solid;
-	border-color: #278599;
+	border-color: #B8C1C9;
 	border-width: thin;
 	height: 25px;
-	width: 300px;
+	width: 250px; 	
 	margin-bottom: 5px;
 	padding-left: 10px;
 	font-family: 'Mosk', sans-serif;
 	font-size: 12px;
 }
-#reg input[type=submit]{
+.team input[type=submit]{
 	background-color:  #992727 !important;
 	border-color: #FFF !important;
 	border-width: thin;
 	color: #FFF;
 	width: 70px;
 	height: 33px;
-	float: left;
-	align:center;
+	text-align: center !important;
+	margin-left:600px;
 	font-size: 13px;
-
-	text-align:center !important;
-	padding-left: 5px !important;
 	font-family: 'Mosk', sans-serif;
 }
-#reg input[type=reset]{
+.team input[type=reset]{
 	background-color:  #992727 !important;
 	border-color: #FFF !important;
 	border-width: thin;
@@ -474,15 +347,21 @@ header h1 {
 	width: 70px;
 	height: 33px;
 	float: right;
-	align:center;
-
 	font-size: 13px;
 	text-align:center !important;
-	padding-left: 5px !important;
 	font-family: 'Mosk', sans-serif;
 }
+#reg .form .p{
+	font-color: red;
+}
 
-
+.team label{
+	font-size:25px;
+	font-family: 'Mosk', sans-serif;
+	color: #278599;
+	text-align:left;
+	margin-left:35px;
+}
 #contact{
 	background-image: url(images/contactusbackgroundpicture.jpg);
 	background-size: 100% 100%;
@@ -595,6 +474,7 @@ header h1 {
 	padding: 0px 5px 0px 5px;
 }
 
+
 /*---FAQs---*/
 
 #faqs {
@@ -611,9 +491,9 @@ header h1 {
 
 #faqs .content {
 
-
-}
-#faqs .content p {
+	
+} 
+#faqs .content p { 
 	color: #787B8C;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 500;
@@ -626,7 +506,7 @@ header h1 {
 
 	}
 
-#faqs .content br {
+#faqs .content br { 
 	margin-bottom: 18px;
 	align-content: right;
 	}
@@ -641,7 +521,7 @@ header h1 {
 	position: absolute;
 
 }
-#faqs .question1 p {
+#faqs .question1 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -668,9 +548,9 @@ header h1 {
 	margin-top: -5px;
 	margin-left: 665px;
 	position: absolute;
-
+	
 }
-#faqs .question2 p {
+#faqs .question2 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -698,7 +578,7 @@ header h1 {
 	margin-left: 190px;
 	position: absolute;
 }
-#faqs .question3 p {
+#faqs .question3 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -725,9 +605,9 @@ header h1 {
 	margin-top: 80px;
 	margin-left: 665px;
 	position: absolute;
-
+	
 }
-#faqs .question4 p {
+#faqs .question4 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -755,7 +635,7 @@ header h1 {
 	margin-left: 190px;
 	position: absolute;
 }
-#faqs .question5 p {
+#faqs .question5 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -781,9 +661,9 @@ header h1 {
 	margin-top: 395px;
 	margin-left: 665px;
 	position: absolute;
-
+	
 }
-#faqs .question6 p {
+#faqs .question6 p { 
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
@@ -801,7 +681,7 @@ header h1 {
 	margin-left: 665px;
 	position: absolute;
 }
-#faqs p {
+#faqs p { 
 	color: #278599;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
