@@ -18,7 +18,7 @@
 			$fifthmember = $_POST['fifthmember'];
 
 
-			$statement = $dbConnection->prepare("INSERT INTO applications (teamname, school, contactnumber, email, nummem, firstmember, secondmember, thirdmember, fourthmember, fifthmember, pointperson, pointcontact) VALUES (:teamname, :school, :contactnumber, :email, :nummem, :firstmember, :secondmember, :thirdmember, :fourthmember, :fifthmember, :pointperson)"); 
+			$statement = $dbConnection->prepare("INSERT INTO applications (teamname, school, contactnumber, email, nummem, firstmember, secondmember, thirdmember, fourthmember, fifthmember, pointperson) VALUES (:teamname, :school, :contactnumber, :email, :nummem, :firstmember, :secondmember, :thirdmember, :fourthmember, :fifthmember, :pointperson)"); 
 			$statement->execute(array(':teamname' => $teamname, ':school' => $school, ':contactnumber' => $contactnumber, ':email' => $email, ':nummem' => $nummem, ':firstmember' => $firstmember, ':secondmember' => $secondmember, ':thirdmember' => $thirdmember, ':fourthmember' => $fourthmember, ':fifthmember' => $fifthmember, ':pointperson' => $pointperson));
 				
 

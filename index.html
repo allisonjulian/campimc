@@ -5,7 +5,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="script.js"></script>
+
 	<link rel="stylesheet" href="style.css" />
+
 	<title>Camp IMC</title>
 </head>
 
@@ -30,7 +32,7 @@
 </header>
 
 <div id="video" class="container">
-	<iframe src="https://www.youtube.com/embed/OPLdF8snBpI?modestbranding=1&#038;autohide=1&#038;controls=0&#038;loop=1&#038;autoplay=1" frameborder="0" allowfullscreen></iframe>
+	<iframe src="https://www.youtube.com/embed/OPLdF8snBpI?modestbranding=1&#038;autohide=1&#038;controls=0&#038;loop=1&#038;autoplay=1&#038;playlist=OPLdF8snBpI" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div id="about" class="container">
@@ -95,7 +97,7 @@
 	height: 110%;
 	width: 100%;
 
-    color: #000000;margin-bottom:-50px;" id="reg"  >
+	color: #000000;" id="reg"  >
 
 		<div class = "content">
 
@@ -105,107 +107,61 @@
 
 
 
-		 </div>
-		 </div>
-
+			</div>
 		</div>
 
-<div style ="
+	</div>
+
+	<div class="form">
+		<form action="submit.php" method="post">
+			<h1> <strong> CAMP IMC Registration Form </strong></h1>
+
+			<div class ="team">
+				<h2> Team Information </h2>
 
 
-	background-image: url(images/form.jpg);
-	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
+				<label> Team Name</label><br>
+				<input type = "text" name ="teamname"><br>
+				<br>
 
-	height: 120%;
-	width: 100%;
-	margin: 0 auto;
-    color: #000000;
-    	font-family: 'Mosk', sans-serif;
+				<label>College/University</label><br>
+				<input type = "text" name ="school"><br>
+				<br>
 
-	font-size:15px
-	" >
+				<label> Point Person</label><br>
+				<input type="text" name="pointperson"><br>
+				<br>
 
+				<label> 	Contact Number</label><br>
+				<input type="text" name="contactnumber"><br>
+				<br>
 
-<form style ="
- align:center;
- margin:0 auto;
- max-width: 650px !important;
- height:100px;
- " action="submit.php" method="post">
+				<label>	Email</label><br>
+				<input type="email" name="email"><br>
+				<br>
 
+				<label>	How many members?</label><br>
+				<input type = "number" name = "nummem"><br>
+				<br>
+				<br>
 
-	<h1 style="font-size: 40px;
-	color: #278599;
-	font-color: #278599;
-	text-align: center;
-	background-color: #FFFFFF;
-	font-family: 'Mosk', sans-serif;
-	border: 3px solid;
+				<h2 > Member Information </h2>
 
-	border-color: #278599;
-	color:#278599;"> <strong> CAMP IMC Registration Form </strong></h1>
+				<label>	Name & Course: <br><input type = "text" name = "firstmember"> </label><br><br>
+				<label>	Name & Course: <br><input type = "text" name = "secondmember"> </label><br><br>
+				<label>	Name & Course: <br><input type = "text" name = "thirdmember"> </label><br><br>
+				<label>	Name & Course: <br><input type = "text" name = "fourthmember"> </label><br><br>
+				<label>	Name & Course: <br><input type = "text" name = "fifthmember"></label> <br><br>
 
-	<div class ="team" style= "border:3px solid; border-color:  #278599; background-color: #FFFFFF">
-		<h2 style = "font-size: 30px;
-	color: #3a3e48;
-	text-align: center;
-	font-family: 'Mosk semi-bold', sans-serif;
-	background-color:#FFFFFF"> Team Information </h2>
+				<br>
+				<div class="row">
+					<input type ="submit" >
+					<input type="reset">
+				</div>
+			</div>
+		</form>
 
-
-   	<label> Team Name</label>
-    <input type = "text" name ="teamname">
-       <br>
-
-      <label>College/University</label>
-       <input type = "text" name ="school">
-       <br>
-
-      <label> Point Person</label>
-       <input type="text" name="pointperson">
-       	<br>
-
-      <label> 	Contact Number</label>
-       <input type="text" name="contactnumber">
-       <br>
-
-       <label>	Email</label>
-       	<input type="email" name="email">
-       	<br>
-
-       <label>	How many members?</label>
-       	<input type = "number" name = "nummem">
-       	<br>
-       	<br>
-
-		<h2 style = "font-size: 30px;
-	color: #3a3e48;
-	text-align: center;
-	font-family: 'Mosk', sans-serif;"> Member Information </h2>
-
-
-
-
-
-
-	<label>	Name & Course: <input type = "text" name = "firstmember"> </label><br>
-	<label>	Name & Course: <input type = "text" name = "secondmember"> </label><br>
-	<label>	Name & Course: <input type = "text" name = "thirdmember"> </label><br>
-	<label>	Name & Course: <input type = "text" name = "fourthmember"> </label><br>
-	<label>	Name & Course: <input type = "text" name = "fifthmember"></label> <br>
-
-		<br>
-
- 		<input type ="submit" >
- 		<input type="reset">
- 		</p>
- 		</div>
-</form>
-
-</div>
+	</div>
 <!-- <div id="faqs" style="height: 130%;">
 	<div class="content">
 	<p>FREQUENTLY<br>ASKED<br>QUESTIONS</p>
@@ -293,7 +249,7 @@
 			</div>
 </div> -->
 
-<div id="contact" align="center" style="height: 100%;">
+<div id="contact" align="center" style="">
 	<div class="contactcontainer">
 		<br/><br/><br/>
 		<h1>CONTACT US</h1>
