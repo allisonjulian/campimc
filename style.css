@@ -478,7 +478,7 @@ header h1 {
 /*---FAQs---*/
 
 #faqs {
-	/*background-image: url(images/5-FAQS.jpg);*/
+	background-image: url(images/5-FAQS2.jpg);
 	background-position: center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -490,7 +490,8 @@ header h1 {
 }
 
 #faqs .content {
-
+	margin-left: 450px;
+	width: 100%;
 	
 } 
 #faqs .content p { 
@@ -498,12 +499,9 @@ header h1 {
 	font-family: 'Mosk', sans-serif;
 	font-weight: 500;
 	font-size: 50px;
-        line-height: 40px;
-        width: 80%;
-        top: 40px;
-        padding: 18px 20px 18px 20px;
 	letter-spacing: 5px;
-
+	text-align: center;
+	width: 450px;
 	}
 
 #faqs .content br { 
@@ -516,7 +514,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: -160px;
+	margin-top: 30px;
 	margin-left: 190px;
 	position: absolute;
 
@@ -533,9 +531,9 @@ header h1 {
 	}
 #faqs .answer1 {
 	border: 1px solid black;
-	padding: 0px 20px 0px;
+	padding: 0px 20px 75px;
 	width: 420px;
-	margin-top: -80px;
+	margin-top: 110px;
 	margin-left: 190px;
 	position: absolute;
 }
@@ -545,7 +543,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: -5px;
+	margin-top: 115px;
 	margin-left: 665px;
 	position: absolute;
 	
@@ -557,14 +555,14 @@ header h1 {
 	font-size: 17px;
 	letter-spacing: 1px;
 	text-align: justify;
-	width: 270px;
+	width: 280px;
 	word-wrap: break-word;
 	}
 #faqs .answer2 {
 	border: 1px solid black;
-	padding: 0px 20px 0px;
+	padding: 0px 20px 200px;
 	width: 400px;
-	margin-top: 70px;
+	margin-top: 190px;
 	margin-left: 665px;
 	position: absolute;
 }
@@ -574,7 +572,7 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 155px;
+	margin-top: 375px;
 	margin-left: 190px;
 	position: absolute;
 }
@@ -592,20 +590,19 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 400px;
-	margin-top: 235px;
+	margin-top: 455px;
 	margin-left: 190px;
 	position: absolute;
 }
-
 #faqs .question4 {
 	background-color: #992727;
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 80px;
+	margin-top: 0px;
 	margin-left: 665px;
 	position: absolute;
-	
+
 }
 #faqs .question4 p { 
 	color: #ffffff;
@@ -620,20 +617,20 @@ header h1 {
 #faqs .answer4 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
-	width: 400px;
-	margin-top: 155px;
+	width: 420px;
+	margin-top: 80px;
 	margin-left: 665px;
 	position: absolute;
 }
-
 #faqs .question5 {
 	background-color: #992727;
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 235px;
+	margin-top: 95px;
 	margin-left: 190px;
 	position: absolute;
+	
 }
 #faqs .question5 p { 
 	color: #ffffff;
@@ -649,7 +646,7 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 400px;
-	margin-top: 310px;
+	margin-top: 170px;
 	margin-left: 190px;
 	position: absolute;
 }
@@ -658,10 +655,9 @@ header h1 {
 	padding: 0px 21px 0px;
 	height: 60px;
 	width: 423px;
-	margin-top: 395px;
+	margin-top: 255px;
 	margin-left: 665px;
 	position: absolute;
-	
 }
 #faqs .question6 p { 
 	color: #ffffff;
@@ -677,8 +673,90 @@ header h1 {
 	border: 1px solid black;
 	padding: 0px 20px 0px;
 	width: 400px;
-	margin-top: 470px;
+	margin-top: 335px;
 	margin-left: 665px;
+	position: absolute;
+}
+#faqs .question7 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 340px;
+	margin-left: 190px;
+	position: absolute;
+}
+
+#faqs .question7 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer7 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 420px;
+	margin-left: 190px;
+	position: absolute;
+}
+#faqs .question8 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 520px;
+	margin-left: 665px;
+	position: absolute;
+}
+#faqs .question8 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer8 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 595px;
+	margin-left: 665px;
+	position: absolute;
+}
+#faqs .question9 {
+	background-color: #992727;
+	padding: 0px 21px 0px;
+	height: 60px;
+	width: 423px;
+	margin-top: 620px;
+	margin-left: 190px;
+	position: absolute;
+}
+#faqs .question9 p { 
+	color: #ffffff;
+	font-family: 'Mosk', sans-serif;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-align: justify;
+	width: 270px;
+	word-wrap: break-word;
+	}
+#faqs .answer9 {
+	border: 1px solid black;
+	padding: 0px 20px 0px;
+	width: 400px;
+	margin-top: 695px;
+	margin-left: 190px;
 	position: absolute;
 }
 #faqs p { 
