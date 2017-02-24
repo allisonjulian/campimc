@@ -25,7 +25,8 @@
 			$dbConnection = null;
 			$statement = null;
 			
-			header("Location: index.php");
+			$Message = urlencode("Response received! We will get back to you.");
+			header("Location: index.php?msg=".$Message);
 		}
 	} catch (PDOException $e) {
 	    echo 'Error: ' . $e->getMessage();
