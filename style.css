@@ -472,9 +472,10 @@ height: 720px;
 	width: 70px;
 	height: 33px;
 	text-align: center !important;
-	margin-left:500px;
 	font-size: 13px;
 	font-family: 'Mosk', sans-serif;
+	float: right;
+	display: block;
 }
 .team input[type=reset]{
 	background-color:  #992727 !important;
@@ -487,9 +488,10 @@ height: 720px;
 	font-size: 13px;
 	text-align:center !important;
 	font-family: 'Mosk', sans-serif;
+	display: block;
 }
 #reg .form .p{
-	font-color: red;
+	color: red;
 }
 
 .team label{
@@ -615,20 +617,20 @@ height: 720px;
 /*---FAQs---*/
 
 #faqs {
-	background-image: url(images/5-FAQS2.jpg);
+	background-image: url('images/5-FAQS.jpg');
 	background-position: center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	background-size: cover;
-	-o-background-size: cover;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
 	width: 100%;
-	height: 100%;
 	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #faqs .content {
 
-	margin-left: 450px;
 	width: 100%;
 	
 } 
@@ -640,42 +642,74 @@ height: 720px;
 	font-size: 50px;
 	letter-spacing: 5px;
 	text-align: center;
-	width: 450px;
+	width: 100%;
 	}
 
+#faqs .left-column,#faqs .right-column {
+	width: 50%;
+	float: left;
+}
+
+#faqs .left-column {
+	overflow: hidden;
+}
+
+#faqs .left-column .block .question, #faqs .left-column .block .answer {
+	float: right;
+	margin-right: 20px;
+}
+
+#faqs .left-column .block .answer {
+	margin-bottom: 40px;
+}
+#faqs .right-column .block .question, #faqs .right-column .block .answer {
+	margin-left: 20px;
+}
+
+/* #faqs .left-column {
+	padding-right: 40px;
+}
+#faqs .right-column {
+	padding-left: 40px;
+} */
 #faqs .content br {
 	margin-bottom: 18px;
 	align-content: right;
 	}
 
-#faqs .question1 {
+
+#faqs .question {
+	width: 400px;
 	background-color: #992727;
 	padding: 0px 21px 0px;
-	height: 60px;
-	width: 423px;
-	margin-top: 30px;
-	margin-left: 190px;
-	position: absolute;
-
+	width: 420px;
+	width: 70%;
 }
-#faqs .question1 p {
+#faqs .block {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+#faqs .question p {
 	color: #ffffff;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
 	font-size: 17px;
 	letter-spacing: 1px;
-	text-align: justify;
-	width: 270px;
+	text-align: left;
+
 	word-wrap: break-word;
+	padding-top: 9px;
+	padding-bottom: 9px;
 	}
-#faqs .answer1 {
+#faqs .answer {
 	border: 1px solid black;
-	padding: 0px 20px 75px;
-	width: 420px;
-	margin-top: 110px;
-	margin-left: 190px;
-	position: absolute;
+	width: 70%;
+	padding: 20px;
+	margin-top: 10px;
+	background: white;
 }
+
 
 #faqs .question2 {
 	background-color: #992727;
@@ -904,16 +938,15 @@ height: 720px;
 	color: #278599;
 	font-family: 'Mosk', sans-serif;
 	font-weight: 600;
-	font-size: 16;
-	text-align: justify;
-	width: 270px;
+	font-size: 16px;
 	word-wrap: break-word;
+	margin: 0;
 }
 
 .form {
 	
 	background-image: url('images/form.jpg');
-	background-position: top;
+	background-position: center;
 	-webkit-background-size: contain;
 	-moz-background-size: contain;
 	-o-background-size: contain;
@@ -925,6 +958,8 @@ height: 720px;
 	font-family: 'Mosk', sans-serif;
 
 	font-size:15px;
+	padding-bottom: 50px;
+	padding-top: 40px;
 }
 
 .form form {
@@ -965,6 +1000,13 @@ height: 720px;
 		margin-left: 50px;
 		margin-right: 50px;
 	}
+
+	#reg {
+		height: 50vw!important;
+	}
+	 #video, iframe {
+	 	height: 57vw!important;
+	 }
 
 	.team .row {
 		float: right;
