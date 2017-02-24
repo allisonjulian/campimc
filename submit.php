@@ -25,7 +25,7 @@
 			$dbConnection = null;
 			$statement = null;
 			
-			$Message = urlencode("Response received! We will get back to you.");
+			$Message = urlencode("Response received! We will get back to you. Email us at ateneoactm.campimc@gmail.com if you do not receive a confirmation e-mail within 24 hours. Thank you!");
 			header("Location: index.php?msg=".$Message);
 		}
 	} catch (PDOException $e) {
