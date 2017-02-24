@@ -296,5 +296,11 @@
 	</div>
 </div>
 
+<?php 
+	if(isset($_GET['msg'])){?>
+		<script>alert('<?php echo $_GET['msg'];?>');</script>
+	    <?php
+	}
+?>
 </body>
 </html>
