@@ -41,6 +41,7 @@
                       <th>#</th>
                       <th>Team Name</th>
                       <th>School</th>
+                      <th>Point person</th>
                       <th>Contact Number</th>
                       <th>Email</th>
                       <th>No. of Members</th>
@@ -71,6 +72,7 @@
                           <td>".$i++."</td>
                           <td>".$app['teamname']."</td>
                           <td>".$app['school']."</td>
+                          <td>".$app['pointperson']."</td>
                           <td>".$app['contactnumber']."</td>
                           <td>".$app['email']."</td>
                           <td>".$app['nummem']."</td>
